@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    First Page
+{% endblock %}
+
+{% block body %}
+<style>
+     input[type='text'],input[type='number']{
+                border:3px dotted grey;
+                width:150px;
+                float:left;
+            }
+     input[type='text']:hover{
+          border:5px solid green;
+            }
+
+
+</style>
+    <form action="{{ url_for('hello') }}" method="post">
+        <table><tr><td>Name: </td>
+            <td><input type="text" name="name" placeholder="Enter Your Name"></td>
+        </tr><tr><td>
+            Age: </td><td><input type="number" name="Age" ></td><tr><td>
+
+            <button>Submit</button></table></td></tr>
+    </form>
+{% endblock %}

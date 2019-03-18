@@ -1,0 +1,13 @@
+{% extends "home_layout.html" %}
+{% block head %}
+this is the second page
+{% endblock %}
+
+{% block body %}
+<style>
+    a::before{
+              content:"\21d2";}
+</style>
+
+<a href="{{url_for('home')}}">home</a>
+{% endblock %}

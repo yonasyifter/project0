@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IsItNewyear.com</title>
+        <style>
+            h1{background:green;
+               color:brown;
+               font-family:arial;
+               font-size:40px;
+               text-align:center;
+               float:right;
+               border:5px grove red;
+            }
+        </style>
+    </head>
+    <body>
+    {%if  new_year%}
+        <h1>YES, Happy New Year!</h1>
+    {% else%}
+     <h1>NO,THE CURRENT DATE IS<br> {{now}}</h1>
+    {%endif%}
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body{
+            background:green;}
+            h1{
+            background:grey;
+            text-align:center;
+            border:5px solid orange;
+            font-family:sanserif;
+            }
+            input[type='name']{
+                border:3px dotted grey;
+                width:40px;
+            }
+            input[type='name']:hover{
+                border:5px solid green;
+            }
+
+        </style>
+        <title>My Website!</title>
+    </head>
+    <body>
+        <h1>{% block heading %}{% endblock %}</h1>
+
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
