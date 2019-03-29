@@ -1,0 +1,11 @@
+{% block heading %}
+    Fill The Form
+{% endblock %}
+
+{% block body %}
+    <form action="{{url_for('home')}}" method="POST">
+        Name:<input type="text" name="name" placeholder="Enter Your Name..">
+        Age:<input type="number" name="age">
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

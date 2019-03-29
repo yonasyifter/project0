@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../django/.idea/django.iml" filepath="$PROJECT_DIR$/../django/.idea/django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django_real/.idea/django_real.iml" filepath="$PROJECT_DIR$/../django_real/.idea/django_real.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django_site/.idea/django_site.iml" filepath="$PROJECT_DIR$/../django_site/.idea/django_site.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/practi/.idea/practi.iml" filepath="$USER_HOME$/Desktop/practi/.idea/practi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../project0/project0/.idea/project0.iml" filepath="$PROJECT_DIR$/../../../../../project0/project0/.idea/project0.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/src2.iml" filepath="$PROJECT_DIR$/.idea/src2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../src3/src3/.idea/src3.iml" filepath="$PROJECT_DIR$/../../src3/src3/.idea/src3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../src4/src4/.idea/src4.iml" filepath="$PROJECT_DIR$/../../src4/src4/.idea/src4.iml" />
     </modules>
   </component>
 </project>

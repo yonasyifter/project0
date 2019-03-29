@@ -4,7 +4,12 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="django" />
+    <orderEntry type="module" module-name="project0" />
+    <orderEntry type="module" module-name="src3" />
+    <orderEntry type="module" module-name="src4" />
+    <orderEntry type="module" module-name="practi" />
+    <orderEntry type="module" module-name="django_site" />
+    <orderEntry type="module" module-name="django_real" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
